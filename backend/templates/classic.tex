@@ -1,0 +1,119 @@
+\documentclass{article}
+\usepackage{lmodern}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Jaswanth Korada} \\ \vspace{5pt}
+ \raisebox{-0.1\height}\faPhone\ (919)-589-6827~ 
+ \href{mailto:jkorada19@gmail.com}{
+ \raisebox{-0.2\height}\faEnvelope\  
+ \underline{jaswanthkorada1903@gmail.com}} ~ 
+ \href{https://linkedin.com/in/korada-jaswanth}{
+ \raisebox{-0.2\height}\faLinkedin\ 
+ \underline{Jaswanth Korada}}
+ \vspace{1pt}
+\end{center}
+
+%----------SUMMARY----------
+\section*{Summary}
+{{SUMMARY}}
+
+%----------TECHNICAL SKILLS----------
+\section*{Technical Skills}
+{{TECHNICAL_SKILLS}}
+
+\vspace{-0.5em}
+
+%-----------Professional Experience-----------
+\section*{Professional Experience}
+\vspace{0.1em}
+
+\textbf{Azure Data Engineer} \hfill \textbf{Aug'24 - Present} \\
+\textbf{App Orchid Inc., California, USA} \\[-0.5pt]
+\vspace{-0.1em}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=-0.3em, topsep=0em]
+{{AZURE_BULLETS}}
+\end{itemize}
+
+\textbf{AWS Data Engineer} \hfill \textbf{Jan'21 - July'23} \\
+\textbf{Chakravuyha Software Technologies, Hyderabad, India} \\[-0.5pt]
+\vspace{-0.1em}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=-0.3em, topsep=0em]
+{{AWS_BULLETS}}
+\end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+
+\textbf{Missouri University of Science and Technology,} Rolla, MO 
+\hfill \textbf{Aug'23 - May'25} \\
+
+\textbf{Master of Science, Information Science and Technology} \\
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+
+\textbf{AWS Certified Solutions Architect -- Associate} \\
+
+\textbf{Azure Data Engineer Associate -- Microsoft} \\
+
+\end{document}
